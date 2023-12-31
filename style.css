@@ -69,7 +69,7 @@ img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0 20%;
+    padding: 0 30%;
     margin-top: 20px;
 }
 input[type="button"]{
@@ -195,6 +195,20 @@ tbody tr td{
     padding: 12px 10px;
 }
 
+@media(max-width:1320px){
+    .search{
+        
+        padding: 0 25%;
+
+    }
+}
+@media(max-width:1080px){
+    .search{
+        
+        padding: 0 20%;
+
+    }
+}
 @media(max-width:900px){
     .search{  
         padding: 0 10%;
