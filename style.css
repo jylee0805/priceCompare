@@ -48,16 +48,16 @@ img{
 .wrap{
     background-image: url(./img/bg.jpg);
     background-size: cover;
-    height: calc(100vh);
-    
+    height: calc(100vh); 
 }
 .logo{
     width: 440px;
-    padding: 24px 0 24px 12%;
+    padding: 24px;
+    margin-left: 50px;
 }
 .box{
     width: 90%;
-    height: 450px;
+    height: 80%;
     background: #ffffff;
     border: 3px solid #f8d45a;
     box-shadow: 0 0 0 8px #ffffff;
